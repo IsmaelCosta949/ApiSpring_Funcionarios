@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/funcionarios/adicionarFuncionario
+Content-Type: application/json
+
+{
+  "nome": "Jorge",
+  "cargo": "Teste",
+  "dataAdmissao": "2009-09-09",
+  "salario": "200.00",
+  "departamento": "Negocios Terrestres"
+}
